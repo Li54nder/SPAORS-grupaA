@@ -1,7 +1,7 @@
 
 public class Primer {
 	public int findFirst(int[] x, int y) {
-		for (int i=0; i<x.length; i++) {
+		for (int i=x.length; i>=0; i--) {
 			if (x[i] == y) {
 				return i;
 			}
