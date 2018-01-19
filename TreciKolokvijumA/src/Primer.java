@@ -14,7 +14,7 @@ public class Primer {
 	 *             if x is null
 	 */
 			if (x[i] == y) {
-				return i;
+				return y;
 			}
 		}
 		return -1;
